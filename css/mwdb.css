@@ -1,0 +1,196 @@
+/*** MWDB Styles ***/
+
+/*** Background ***/
+
+html, body {margin: 0; padding: 0; font-family: 'Lato', sans-serif;}
+
+.row {max-width: 70em; margin: auto;}
+
+form {margin: 0; padding: 0; background: none; height: 100%; width: 100%;}
+
+@media only screen and (min-width : 641px) {
+.main {
+  background: url(../img/design/background.png) 0 0 repeat-y;
+  margin: 0 auto;
+  background-size: contain;
+  max-width: 61.5em;
+}
+}
+
+/*** Logo ***/
+
+.main h1 {margin: 0; padding: 0;}
+
+
+h1 a {
+  display: block;
+  background: url(../img/design/logo.png) center center no-repeat;
+  font-weight: 300;
+  text-indent: -9999em;
+  margin-top: 0;
+  width: 100%;
+  padding: 1.75em 0;
+  background-size: contain;
+}
+
+
+
+h1 a:hover {opacity: .9; color: #0A002B;}
+
+
+/*** Type ***/
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
+ 	font-family: 'Lato', sans-serif; color: #555;
+}
+
+h1, h2, h3, h4, h5 h6 {
+  color: #0f3060;
+  margin: 0 0 .75em 0;
+  font-weight: 300;
+}
+
+h2 {font-size: 2em; }
+h3 {font-size: 1.5em; color: #555;}
+
+h2.home {color: #555;}
+
+/*** Links ***/
+
+a {color: #0f3060; font-weight: 500;}
+a:hover {color: #555}
+a:active {}
+a:visited {}
+
+/*** Main Menu ***/
+
+ul.menu {margin: 0 0 2em 0; padding: 0;}
+
+@media only screen and (min-width : 768px) {
+  ul.menu {
+    margin: 0 0 5em 0;
+  }
+}
+
+ul.menu li {
+  list-style: none;
+  padding: .5em 0;
+  list-style-type: none;
+  display: block;
+}
+
+ul.menu li a {
+  display: block;
+  padding: .1em 0 .1em .5em;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  background: none;
+  color: #305EB6;
+}
+
+ul.menu li.last a {border-bottom: none;}
+
+@media only screen and (min-width : 641px) {
+  ul.menu li a {
+    text-align: left;
+    color: #fff;
+    border-bottom: none;
+  }
+}
+
+ul.menu li a.active {
+  border-left: 2px solid #fff;
+  border-left: 2px solid rgba(255,255,255,.3);
+}
+
+nav {
+  padding: 0 1em;
+}
+
+/*** ABBR ***/
+
+abbr {font-style: inherit; color: inherit; text-decoration: none; border-bottom: none; font-size: inherit;}
+
+/*** Main ***/
+
+.opening p {
+  margin-top: 1.5em;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+}
+
+.secondary p {}
+
+@media only screen and (min-width : 641px) {
+#main .row {
+  max-width: 62.5em;
+
+  background-size: contain;
+  }
+}
+
+
+.main .row.home .medium-2 {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+/*** Page Content ***/
+
+@media only screen and (min-width : 641px) {
+.page-content {
+  padding: 3em 0 2em 0;
+}
+}
+
+ul.clearing-thumbs img {margin-bottom: 1em;}
+
+/*** vCard ***/
+
+.vCard {color: #fff; padding: 0 1em;}
+.vCard p {font-size: .7em; margin: 0; padding: 0;}
+.vCard p span {display: block;}
+.vCard a {color: #fff;}
+
+@media only screen and (min-width : 641px) {
+  .vCard p {color: #fff;}
+}
+
+.vCard.show-for-small {
+  background: #0f3060;
+  color: #fff;
+  padding: 1em;
+}
+
+.vCard.show-for-small p {color: #fff;}
+
+/*** Banner ***/
+
+@media only screen and (min-width : 768px) {
+.banner {
+  padding: 3em 0 4em 0;
+  clear: both;
+}
+}
+
+/*** Content ***/
+
+img.full {width: 100%;}
+img.full.margin {margin-bottom: 1em;}
+
+.main p {font-weight: 500;}
+
+/*** Footer ***/
+
+.footer {
+  padding: 5em 0 2em 0;
+  margin: 0;
+}
+
+.footer p {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
