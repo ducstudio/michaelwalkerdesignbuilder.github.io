@@ -28,7 +28,8 @@ h1 a {
   font-weight: 300;
   text-indent: -9999em;
   margin-top: 0;
-  width: 100%;
+  width: 101%;
+  overflow: hidden;
   padding: 1.75em 0;
   background-size: contain;
 }
